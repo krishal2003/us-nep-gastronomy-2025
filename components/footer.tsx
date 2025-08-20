@@ -195,11 +195,11 @@ export default function Footer() {
             </div>
             <div className="text-xs text-gray-600">
               <Link
-                href="https://uddheshyagroup.com/"
+                href="https://e.com/"
                 className="hover:text-gray-900 transition-colors"
                 target="_blank"
               >
-                Made by Uddheshya Group{" "}
+                Made by Eleven 11{" "}
               </Link>
             </div>
           </div>
