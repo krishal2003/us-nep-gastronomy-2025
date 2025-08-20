@@ -14,38 +14,6 @@ import { Button } from "@/components/ui/button";
 export default function Footer() {
   return (
     <footer className="bg-gray-50 border-t border-gray-200">
-      <div className="px-4 sm:px-6 lg:px-8 py-12 lg:py-16 border-b border-gray-200">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="flex justify-center mb-6"></div>
-          <h3 className="text-2xl lg:text-3xl font-light tracking-wide text-gray-800 mb-4">
-            STAY CONNECTED
-          </h3>
-          <p className="text-base lg:text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Subscribe for updates on the US–Nepal Gastronomy Exchange 2025, chef
-            announcements, exclusive experiences, and sponsorship opportunities.
-          </p>
-
-          <div className="flex justify-center items-center px-4">
-            <form className="w-full max-w-md">
-              <div className="flex flex-col sm:flex-row items-center gap-3">
-                <input
-                  type="email"
-                  placeholder="Enter your email address"
-                  className="flex-1 w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-sm lg:text-base text-center sm:text-left"
-                  required
-                />
-                <Button
-                  type="submit"
-                  className="px-6 py-3 w-full sm:w-auto bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors text-sm lg:text-base font-medium"
-                >
-                  SUBSCRIBE
-                </Button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
       <div className="px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
@@ -58,7 +26,6 @@ export default function Footer() {
                   <MapPin className="w-5 h-5 text-gray-600 mt-0.5 flex-shrink-0" />
                   <div className="text-gray-700 text-sm lg:text-base">
                     <p>Kathmandu, Nepal</p>
-                    <p>Global Culinary Exchange</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -73,7 +40,7 @@ export default function Footer() {
                     href="mailto:info@usnepalgastronomyexchange.org"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-sm lg:text-base break-all"
                   >
-                    info@usnepalgastronomyexchange.org
+                    info@usnepalgastronomy.com
                   </a>
                 </div>
               </div>

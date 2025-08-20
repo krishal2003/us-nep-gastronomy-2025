@@ -18,7 +18,7 @@ export default function ContactPage() {
 
       {/* Main Content */}
       <main className="px-4 sm:px-6 py-8 lg:py-16">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 lg:mb-16">
             <h2 className="text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-8">
               CONTACT
@@ -45,7 +45,7 @@ export default function ContactPage() {
                   <p className="text-gray-700 leading-relaxed">
                     US–Nepal Gastronomy Exchange Secretariat
                     <br />
-                    Lazimpat, Kathmandu 44600
+                    Bakhundhole Heights, Lalitpur
                     <br />
                     Nepal
                   </p>
