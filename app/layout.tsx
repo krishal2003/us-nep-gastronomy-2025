@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cultural diplomacy",
     "culinary tourism",
     "fusion cuisine",
-    "Gastronomy Exchange 2025",
+    "Gastronomy 2025",
     "Chef Arjun Ranabhat",
     "Nepal food event",
   ],

@@ -22,28 +22,28 @@ export default function HomePage() {
       {/* Welcome Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-wide text-gray-800 mb-8 lg:mb-12">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium tracking-wide text-[#6a3341] mb-8 lg:mb-12">
             WELCOME TO US NEPAL GASTRONOMY 2025
           </h1>
-          <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed mb-8 lg:mb-12">
+          <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] leading-relaxed mb-8 lg:mb-12">
             Nestled between the cultural richness of Kathmandu and the
-            breathtaking heights of Everest , the US–Nepal Gastronomy Exchange
-            2025 is a once-in-a-lifetime celebration of culinary excellence. Led
-            by Chef Arjun Ranabhat and a team of Michelin-starred chefs from
-            around the globe, the event blends French technique with Nepali
-            ingredients, creating a dining experience that honors tradition
-            while redefining innovation on the world stage.
+            breathtaking heights of Everest , the US–Nepal Gastronomy 2025 is a
+            once-in-a-lifetime celebration of culinary excellence. Led by Chef
+            Arjun Ranabhat and a team of Michelin-starred chefs from around the
+            globe, the event blends French technique with Nepali ingredients,
+            creating a dining experience that honors tradition while redefining
+            innovation on the world stage.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
             <Link href="http://uddheshyagroup.com/" target="_blank">
-              <Button className="w-full sm:w-auto px-8 py-3 bg-gray-800 text-white hover:bg-gray-900 transition-colors text-sm lg:text-base">
+              <Button className="w-full sm:w-auto px-8 py-3 bg-[#6a3341] text-white hover:bg-[#582935] transition-colors text-sm lg:text-base cursor-pointer">
                 MAKE A RESERVATION
               </Button>
             </Link>
-            <Link href="/events">
+            <Link href="/">
               <Button
                 variant="outline"
-                className="w-full sm:w-auto px-8 py-3 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white transition-colors text-sm lg:text-base bg-transparent"
+                className="w-full sm:w-auto px-8 py-3 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] hover:text-white transition-colors text-sm lg:text-base bg-transparent cursor-pointer"
               >
                 LEARN MORE
               </Button>
@@ -57,16 +57,16 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-6 lg:mb-8">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6 lg:mb-8">
                 A NEW CHAPTER IN FINE DINING
               </h2>
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
-                In 2025, the US–Nepal Gastronomy Exchange is setting a bold new
-                standard for global cuisine. This is more than an event — it’s a
+              <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-6">
+                In 2025, the US–Nepal Gastronomy is setting a bold new standard
+                for global cuisine. This is more than an event — it’s a
                 reimagining of what fine dining can be when cultures,
                 techniques, and ingredients converge at the highest level.
               </p>
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-8">
+              <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-8">
                 Our commitment to cultural diplomacy, sustainability, and
                 culinary innovation drives everything we do. Each dish tells the
                 story of Nepal’s rich heritage, from indigenous flavors like
@@ -77,7 +77,7 @@ export default function HomePage() {
               <Link href="/about">
                 <Button
                   variant="outline"
-                  className="px-6 py-3 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white transition-colors text-sm lg:text-base bg-transparent"
+                  className="px-6 py-3 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] hover:text-white transition-colors text-sm lg:text-base bg-transparent cursor-pointer"
                 >
                   OUR STORY
                 </Button>
@@ -98,10 +98,10 @@ export default function HomePage() {
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-6">
-              THE US–NEPAL GASTRONOMY EXCHANGE EXPERIENCE
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6">
+              THE US–NEPAL GASTRONOMY EXPERIENCE
             </h2>
-            <p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg text-[#6a3341] max-w-3xl mx-auto leading-relaxed">
               Two extraordinary culinary journeys: an elegant Gala Dinner in
               Kathmandu and a once-in-a-lifetime Everest Cookout, blending
               Nepali heritage with global technique and premium ingredients.
@@ -116,10 +116,10 @@ export default function HomePage() {
                   alt="Kathmandu Gala Dinner"
                   className="w-full h-32 sm:h-40 object-cover rounded-lg mb-6"
                 />
-                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-gray-800 mb-4">
+                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
                   KATHMANDU GALA DINNER
                 </h3>
-                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
                   An intimate five-course evening at a historic or rooftop
                   venue, where Michelin-starred and Nepali chefs co-create
                   dishes that tell the story of cultural fusion, accompanied by
@@ -135,10 +135,10 @@ export default function HomePage() {
                   alt="Everest Cookout"
                   className="w-full h-32 sm:h-40 object-cover rounded-lg mb-6"
                 />
-                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-gray-800 mb-4">
+                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
                   EVEREST COOKOUT
                 </h3>
-                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
                   A groundbreaking high-altitude cookout showcasing Nepali
                   cuisine on the world’s highest stage, combining indigenous
                   ingredients with international chef expertise to create
@@ -154,10 +154,10 @@ export default function HomePage() {
                   alt="Ingredients & Pairings"
                   className="w-full h-32 sm:h-40 object-cover rounded-lg mb-6"
                 />
-                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-gray-800 mb-4">
+                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
                   INGREDIENTS & PAIRINGS
                 </h3>
-                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
                   A curated tasting journey featuring rare Nepali ingredients
                   like jimbu, gundruk, yak cheese alongside luxury elements such
                   as truffles and fine wines, with chefs presenting the stories
@@ -181,10 +181,10 @@ export default function HomePage() {
               />
             </div>
             <div>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-6 lg:mb-8">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6 lg:mb-8">
                 CHEF ARJUN RANABHAT
               </h2>
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
+              <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-6">
                 Chef Arjun Ranabhat, President of the US–Nepal Gastronomy Chefs
                 Association, is a visionary culinary leader celebrated for
                 blending refined French techniques with the soulful flavors of
@@ -193,7 +193,7 @@ export default function HomePage() {
                 stage through innovation, education, and cross-cultural
                 collaboration.
               </p>
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-8">
+              <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-8">
                 His dedication to cultural diplomacy, sustainable sourcing, and
                 culinary excellence has inspired chefs worldwide to explore
                 Nepal’s rich ingredients and traditions in new and creative
@@ -202,7 +202,7 @@ export default function HomePage() {
               <Link href="/chefs">
                 <Button
                   variant="outline"
-                  className="px-6 py-3 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white transition-colors text-sm lg:text-base bg-transparent"
+                  className="px-6 py-3 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] cursor-pointer hover:text-white transition-colors text-sm lg:text-base bg-transparent"
                 >
                   MEET THE TEAM
                 </Button>
@@ -215,10 +215,10 @@ export default function HomePage() {
       {/* Reservation CTA */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6 lg:mb-8">
             RESERVE YOUR TABLE
           </h2>
-          <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-8 lg:mb-12">
+          <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-8 lg:mb-12">
             Join us for an unforgettable dining experience that celebrates the
             artistry of Nepali cuisine. Reservations are available for the
             Kathmandu Gala Dinner on November 8 and the Everest Cookout on
@@ -226,14 +226,14 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
             <Link href="https://www.uddheshyagroup.com/">
-              <Button className="w-full sm:w-auto px-8 py-4 bg-gray-800 text-white hover:bg-gray-900 transition-colors text-base lg:text-lg">
+              <Button className="w-full sm:w-auto px-8 py-4 bg-[#6a3341] text-white hover:bg-[#6a3341] cursor-pointer transition-colors text-base lg:text-lg">
                 DINNER RESERVATIONS
               </Button>
             </Link>
-            <Link href="/events">
+            <Link href="/">
               <Button
                 variant="outline"
-                className="w-full sm:w-auto px-8 py-4 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white transition-colors text-base lg:text-lg bg-transparent"
+                className="w-full sm:w-auto px-8 py-4 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] hover:text-white transition-colors text-base lg:text-lg bg-transparent cursor-pointer"
               >
                 GALA DINNER{" "}
               </Button>
