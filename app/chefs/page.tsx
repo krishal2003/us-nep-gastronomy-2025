@@ -65,12 +65,12 @@ export default function ChefsPage() {
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12 lg:mb-16">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-wide text-gray-800 mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-wide text-[#6a3341] mb-6">
               OUR CULINARY TEAM
             </h1>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] max-w-3xl mx-auto leading-relaxed">
               Meet the visionary talents bringing excellence, creativity, and
-              cultural pride to the US-Nepal Gastronomy Exchange 2025.
+              cultural pride to the US-Nepal Gastronomy 2025.
             </p>
           </div>
 
@@ -86,13 +86,13 @@ export default function ChefsPage() {
                   />
                 </div>
                 <div className="p-8 sm:p-12 lg:p-16 flex flex-col justify-center bg-gray-50">
-                  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-4">
+                  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-4">
                     {chefs[0].name}
                   </h2>
-                  <p className="text-lg sm:text-xl text-gray-600 mb-6 tracking-wide">
+                  <p className="text-lg sm:text-xl text-[#6a3341] mb-6 tracking-wide">
                     {chefs[0].position}
                   </p>
-                  <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-6">
+                  <p className="text-sm sm:text-base lg:text-lg text-[#6a3341] leading-relaxed mb-6">
                     Chef Arjun Ranabhat is a visionary culinary leader known for
                     blending French technique with Nepali flavors. With global
                     experience and deep cultural roots, he leads the
@@ -134,15 +134,15 @@ export default function ChefsPage() {
 
           {/* Team Philosophy */}
           <div className="bg-gray-50 rounded-lg p-8 sm:p-12 lg:p-16 text-center">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-6 lg:mb-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6 lg:mb-8">
               OUR PHILOSOPHY
             </h2>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-6">
+            <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] max-w-4xl mx-auto leading-relaxed mb-6">
               We are a collaborative community of global chefs united by our
               commitment to culinary innovation, cultural diplomacy, and the
               global elevation of Nepali cuisine.
             </p>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] max-w-4xl mx-auto leading-relaxed">
               Through this event, we celebrate the fusion of French technique
               and Nepali tradition, showcase indigenous ingredients, and create
               unforgettable experiences rooted in hospitality, storytelling, and
