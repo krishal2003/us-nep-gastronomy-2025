@@ -78,30 +78,59 @@ export default function EventsPage() {
               WHAT TO EXPECT
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
+              {/* Dining Experience */}
               <div>
                 <h4 className="text-base lg:text-lg font-medium text-gray-800 mb-4">
                   DINING EXPERIENCE
                 </h4>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    • Five-course fusion menu (French technique + Nepali
-                    ingredients)
+                    • <strong>First Course:</strong> Barah – black lentils
+                    pancake, poached egg, crunch, and pickles
                   </li>
-                  <li>• Wine pairings curated by global sommeliers</li>
-                  <li>• Rare ingredients: yak cheese, gundruk, truffle</li>
-                  <li>• Live chef storytelling and presentations</li>
+                  <li>
+                    • <strong>Second Course:</strong> Cholla / Octopus – Spanish
+                    octopus, refined plating
+                  </li>
+                  <li>
+                    • <strong>Third Course (Choice of 3):</strong> Duck or Squid
+                    with turmeric parsnip purée; Lamb Loin with smoked eggplant
+                    caviar; or Vegetarian Mushroom risotto with parmesan
+                    emulsion
+                  </li>
+                  <li>
+                    • <strong>Cheese Course:</strong> Cast iron pan–roasted
+                    cheese flambéed live, sourced from a Pennsylvania farm
+                  </li>
+                  <li>
+                    • <strong>Dessert:</strong> Melted chocolate tart or phyllo
+                    millefeuille with Nepalese yogurt & honey
+                  </li>
+                  <li>
+                    • <strong>Petit Fours:</strong> Macaron & fine chocolates
+                  </li>
                 </ul>
               </div>
+
+              {/* Event Atmosphere */}
               <div>
                 <h4 className="text-base lg:text-lg font-medium text-gray-800 mb-4">
                   EVENT ATMOSPHERE
                 </h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Scenic rooftop location</li>
-                  <li>• Elegant lighting and curated décor</li>
-                  <li>• Cultural performances and live music</li>
+                  <li>• Rooftop gala setting with panoramic views</li>
                   <li>
-                    • Guest list includes hoteliers, food media & cultural icons
+                    • Elegant lighting, curated floral and décor installations
+                  </li>
+                  <li>
+                    • Parade of chefs flambéing cheese live in the dining hall
+                  </li>
+                  <li>
+                    • Cultural performances, live music & immersive storytelling
+                  </li>
+                  <li>
+                    • Exclusive guest list: hoteliers, food media, cultural
+                    icons
                   </li>
                 </ul>
               </div>
