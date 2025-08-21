@@ -109,12 +109,12 @@ export default function GalleryPage() {
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12 lg:mb-16">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-wide text-gray-800 mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-wide text-[#6a3341] mb-6">
               GALLERY
             </h1>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] max-w-3xl mx-auto leading-relaxed">
               Experience the spirit, flavor, and cultural elegance of the
-              US–Nepal Gastronomy Exchange 2025 through our gallery.
+              US–Nepal Gastronomy 2025 through our gallery.
             </p>
           </div>
 
@@ -147,15 +147,15 @@ export default function GalleryPage() {
 
           {/* Experience Section */}
           <div className="bg-gray-50 rounded-lg p-8 sm:p-12 lg:p-16 text-center">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-gray-800 mb-6 lg:mb-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6 lg:mb-8">
               THE EXPERIENCE
             </h2>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-6">
+            <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] max-w-4xl mx-auto leading-relaxed mb-6">
               From a glamorous rooftop gala to a historic cookout at Everest,
               this event celebrates cultural diplomacy, food innovation, and the
               elevation of Nepali cuisine.
             </p>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] max-w-4xl mx-auto leading-relaxed">
               Guests are immersed in hands-on culinary stories, rare
               ingredients, and Michelin-level excellence — blending tradition
               and technique at the highest level, both literally and
