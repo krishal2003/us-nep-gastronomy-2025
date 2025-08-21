@@ -70,10 +70,10 @@ export default function MobileNav({ currentPath }: MobileNavProps) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`transition-colors hover:text-gray-900 ${
+                className={`transition-colors hover:text-[#5b2e3a] ${
                   isActive(item.href)
-                    ? "text-gray-900 border-b-2 border-gray-900 pb-1"
-                    : "text-gray-700"
+                    ? "text-[#6a3341] border-b-2 border-[#6a3341] pb-1"
+                    : "text-[#6a3341]"
                 } ${item.label === "LA GALERIE" ? "italic" : ""}`}
               >
                 {item.label}
