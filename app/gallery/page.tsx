@@ -6,6 +6,7 @@ import MobileNav from "@/components/mobile-nav";
 import Footer from "@/components/footer";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Contact from "@/components/Contact";
 
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -105,13 +106,13 @@ export default function GalleryPage() {
     <div className="min-h-screen bg-white">
       <MobileNav />
 
-      <main className="px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <main className="px-4 sm:px-6 py-8 lg:py-16">
         <div className="max-w-7xl mx-auto">
-          {/* Header */}
           <div className="text-center mb-12 lg:mb-16">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-wide text-[#6a3341] mb-6">
-              GALLERY
-            </h1>
+            <h2 className="text-3xl lg:text-4xl font-medium  tracking-wide text-[#6a3341]  mb-8">
+              GALLERY{" "}
+            </h2>{" "}
+            <div className="w-24 h-px bg-[#31161d] mx-auto mb-8"></div>
             <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] max-w-3xl mx-auto leading-relaxed">
               Experience the spirit, flavor, and cultural elegance of the
               US–Nepal Gastronomy 2025 through our gallery.
@@ -224,7 +225,9 @@ export default function GalleryPage() {
           </div>
         </div>
       )}
-
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );

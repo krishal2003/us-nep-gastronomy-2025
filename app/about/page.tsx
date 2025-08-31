@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
+import Contact from "@/components/Contact";
 
 export default function HomePage() {
   return (
@@ -35,12 +36,12 @@ export default function HomePage() {
             innovation on the world stage.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-            <Link href="http://uddheshyagroup.com/" target="_blank">
+            <Link href="http://eleven11np.com/" target="_blank">
               <Button className="w-full sm:w-auto px-8 py-3 bg-[#6a3341] text-white hover:bg-[#582935] transition-colors text-sm lg:text-base cursor-pointer">
                 MAKE A RESERVATION
               </Button>
             </Link>
-            <Link href="/">
+            <Link href="/events">
               <Button
                 variant="outline"
                 className="w-full sm:w-auto px-8 py-3 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] hover:text-white transition-colors text-sm lg:text-base bg-transparent cursor-pointer"
@@ -225,7 +226,7 @@ export default function HomePage() {
             November 10, 2025.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-            <Link href="https://www.uddheshyagroup.com/">
+            <Link href="https://www.eleven11np.com/">
               <Button className="w-full sm:w-auto px-8 py-4 bg-[#6a3341] text-white hover:bg-[#6a3341] cursor-pointer transition-colors text-base lg:text-lg">
                 DINNER RESERVATIONS
               </Button>
@@ -241,7 +242,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );

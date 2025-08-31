@@ -22,11 +22,11 @@ export default function MobileNav({ currentPath }: MobileNavProps) {
   const closeMenu = () => setIsOpen(false);
 
   const navItems = [
-    { href: "/", label: "EVENTS" },
-    { href: "/about", label: "ABOUT" },
-    { href: "/contact", label: "CONTACT US" },
-    { href: "/gallery", label: "LA GALERIE" },
+    { href: "/", label: "ABOUT" },
+    { href: "/events", label: "EVENTS" },
     { href: "/chefs", label: "CHEFS" },
+    { href: "/gallery", label: "LA GALERIE" },
+    { href: "#contact", label: "CONTACT US" },
   ];
 
   const isActive = (href: string) => pathname === href;

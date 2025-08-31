@@ -110,7 +110,7 @@ export default function Footer() {
                 </div>
                 <div className="pt-2">
                   <Link
-                    href="https://www.uddheshyagroup.com/"
+                    href="https://www.eleven11np.com/"
                     className="text-[#6a3341]  hover:text-[#44212a]  transition-colors text-xs lg:text-sm"
                     target="_blank"
                   >
@@ -195,7 +195,7 @@ export default function Footer() {
             </div>
             <div className="text-xs text-[#6a3341]">
               <Link
-                href="https://uddheshyagroup.com/"
+                href="https://eleven11np.com/"
                 className="hover:text-[#44212a] transition-colors"
                 target="_blank"
               >

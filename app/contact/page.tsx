@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import MobileNav from "@/components/mobile-nav";
 import Footer from "@/components/footer";
+import Contact from "@/components/Contact";
 
 export default function ContactPage() {
   return (
@@ -106,7 +107,7 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <div>
+            <div id="#contact">
               <Card className="border-[#6a3341]">
                 <CardHeader>
                   <CardTitle className="text-xl lg:text-2xl font-light tracking-wide text-[#6a3341]">
@@ -182,7 +183,6 @@ export default function ContactPage() {
         </div>
       </main>
 
-      {/* Footer */}
       <Footer />
     </div>
   );
