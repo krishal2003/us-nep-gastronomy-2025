@@ -38,7 +38,7 @@ export default function EventsPage() {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-20 items-stretch">
             <div className="flex">
               <Image
-                src="/placeholder.jpg"
+                src="/17.jpg"
                 alt="Gala Dinner Rooftop Venue in Kathmandu"
                 width={600}
                 height={400}
