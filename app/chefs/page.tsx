@@ -20,7 +20,7 @@ export default function ChefsPage() {
     {
       name: "Chef Bruno Bertin",
       position: "Brand Ambassador",
-      image: "/.png",
+      image: "/bruno.jpg",
     },
     {
       name: "Chef Rajeev Shrestha",
@@ -31,11 +31,6 @@ export default function ChefsPage() {
       name: "Chef Florian Bellangaer",
       position: "Renowned Pastry Chef & Food Network Judge",
       image: "/florian.png",
-    },
-    {
-      name: "Chef Bruno Bertin",
-      position: "Vice President of Innovation Cuisine Solutions",
-      image: "/chefs/pierre.jpg",
     },
     {
       name: "Chef Bertrand Bouquin",
@@ -51,12 +46,12 @@ export default function ChefsPage() {
     {
       name: "Chef Sylvie Grucker",
       position: "Culinary Innovator, Le Pressoir de Bacchus",
-      image: "/chefs/bruno_goussault.jpg",
+      image: "/sylvia.jpeg",
     },
     {
       name: "Chef Alexandre Seinee",
       position: "Executive Chef at Ladurée Beverly Hills",
-      image: "/chefs/ram.jpg",
+      image: "/and.jpeg",
     },
   ];
 
