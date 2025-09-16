@@ -15,7 +15,7 @@ export default function ChefsPage() {
     {
       name: "Chef Ram Thapa",
       position: "Vice President",
-      image: "/.png",
+      image: "/ram.jpg",
     },
     {
       name: "Chef Bruno Bertin",
@@ -30,7 +30,7 @@ export default function ChefsPage() {
     {
       name: "Chef Florian Bellangaer",
       position: "Renowned Pastry Chef & Food Network Judge",
-      image: "/florian.png",
+      image: "/Florian.jpeg",
     },
     {
       name: "Chef Bertrand Bouquin",
@@ -41,7 +41,7 @@ export default function ChefsPage() {
       name: "Chef Taylor Fernandes",
       position:
         "Senior Manager of R&D, Food & Beverage Innovation at Starbucks",
-      image: "/chefs/robin.pp",
+      image: "/taylor.jpeg",
     },
     {
       name: "Chef Sylvie Grucker",

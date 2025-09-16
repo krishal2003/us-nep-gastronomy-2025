@@ -302,6 +302,75 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      {/* Founding Members Section */}
+      <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-12">
+            FOUNDING MEMBERS
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+            {/* Member 1 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/arjun.jpeg"
+                alt="Founding Member 1"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+              <h3 className="text-lg font-medium text-[#6a3341]">
+                Arjun Ranabhat
+              </h3>
+            </div>
+
+            {/* Member 2 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/bruno.jpg"
+                alt="Founding Member 2"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+              <h3 className="text-lg font-medium text-[#6a3341]">
+                Bruno Bertin
+              </h3>
+            </div>
+
+            {/* Member 3 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/suresh.jpeg"
+                alt="Founding Member 3"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+              <h3 className="text-lg font-medium text-[#6a3341]">
+                Suresh Basnet
+              </h3>
+            </div>
+            {/* Member 3 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/founder3.jpg"
+                alt="Founding Member 3"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+              <h3 className="text-lg font-medium text-[#6a3341]">
+                Spandan Lama Mocktan{" "}
+              </h3>
+            </div>
+            {/* Member 4 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/nisha.jpeg"
+                alt="Founding Member 4"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+              <h3 className="text-lg font-medium text-[#6a3341]">
+                Nisha Karki{" "}
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div id="contact">
         <Contact />
       </div>
