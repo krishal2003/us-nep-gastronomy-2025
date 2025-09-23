@@ -14,43 +14,43 @@ export default function ChefsPage() {
     },
     {
       name: "Chef Ram Thapa",
-      position: "Vice President",
+      position: "Vice President / Founder",
       image: "/ram.jpg",
     },
     {
       name: "Chef Bruno Bertin",
-      position: "Brand Ambassador",
+      position: "Brand Ambassador / Founder",
       image: "/bruno.jpg",
     },
     {
       name: "Chef Rajeev Shrestha",
-      position: "Ambassador of Nepal",
+      position: "Ambassador of Nepal / Member",
       image: "/rajeev.jpeg",
     },
     {
       name: "Chef Florian Bellangaer",
-      position: "Renowned Pastry Chef & Food Network Judge",
+      position: "Renowned Pastry Chef & Food Network Judge / Member",
       image: "/Florian.jpeg",
     },
     {
       name: "Chef Bertrand Bouquin",
-      position: "Culinary Director at Desert Mountain",
+      position: "Culinary Director at Desert Mountain / Member",
       image: "/bertand.png",
     },
     {
       name: "Chef Taylor Fernandes",
       position:
-        "Senior Manager of R&D, Food & Beverage Innovation at Starbucks",
+        "Senior Manager of R&D, Food & Beverage Innovation at Starbucks / Member",
       image: "/taylor.jpeg",
     },
     {
       name: "Chef Sylvie Grucker",
-      position: "Culinary Innovator, Le Pressoir de Bacchus",
+      position: "Culinary Innovator, Le Pressoir de Bacchus / Member",
       image: "/sylvia.jpeg",
     },
     {
       name: "Chef Alexandre Seinee",
-      position: "Executive Chef at Ladurée Beverly Hills",
+      position: "Executive Chef at Ladurée Beverly Hills / Member",
       image: "/and.jpeg",
     },
   ];

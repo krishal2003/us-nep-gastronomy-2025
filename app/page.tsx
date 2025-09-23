@@ -309,7 +309,7 @@ export default function HomePage() {
             FOUNDING MEMBERS
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
             {/* Member 1 */}
             <div className="flex flex-col items-center">
               <img
@@ -332,6 +332,16 @@ export default function HomePage() {
               <h3 className="text-lg font-medium text-[#6a3341]">
                 Bruno Bertin
               </h3>
+            </div>
+
+            {/* Member 2 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/ram.jpg"
+                alt="Founding Member 2"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+              <h3 className="text-lg font-medium text-[#6a3341]">Ram Thapa </h3>
             </div>
 
             {/* Member 3 */}
