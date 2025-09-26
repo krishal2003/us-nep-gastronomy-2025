@@ -55,15 +55,13 @@ export default function HomePage() {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="p-0 max-w-lg rounded-2xl overflow-hidden">
           <img
-            src="/save.png"
+            src="/tickets.png"
             alt="Promotion"
             className="w-full h-auto object-cover"
           />
         </DialogContent>
       </Dialog>
-
       <MobileNav />
-
       {/* Hero Section with Slider */}
       <section className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden">
         <Slider {...sliderSettings} className="h-full">
@@ -79,7 +77,6 @@ export default function HomePage() {
         </Slider>
         <div className="absolute inset-0 bg-black/20" />
       </section>
-
       {/* Welcome Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-7xl mx-auto text-center">
@@ -112,7 +109,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Philosophy Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto">
@@ -154,7 +150,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Experience Features */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-7xl mx-auto">
@@ -229,7 +224,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Chef Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto">
@@ -272,7 +266,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Reservation CTA */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-4xl mx-auto text-center">
@@ -306,10 +299,88 @@ export default function HomePage() {
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-12">
+            OUR PARTNERS{" "}
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Member 1 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/cuisine.webp"
+                alt="Founding Member 1"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/111.png"
+                alt="Founding Member 1"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+
+            {/* Member 2 */}
+
+            {/* Member 2 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/wow.jpg"
+                alt="Founding Member 2"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+
+            {/* Member 3 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/esewa.jpg"
+                alt="Founding Member 3"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+            {/* Member 4 */}
+            <div className="flex flex-col items-center">
+              <img
+                src="/everyday.jpeg"
+                alt="Founding Member 4"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/fortessa.jpg"
+                alt="Founding Member 4"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+
+            <div className="flex flex-col items-center">
+              <img
+                src="/aloft.png"
+                alt="Founding Member 4"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/prime.jpeg"
+                alt="Founding Member 2"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Founding Members Section */}
+      <br />
+      <hr /> <br />
+      <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-12">
             FOUNDING MEMBERS
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
             {/* Member 1 */}
             <div className="flex flex-col items-center">
               <img
@@ -347,17 +418,6 @@ export default function HomePage() {
             {/* Member 3 */}
             <div className="flex flex-col items-center">
               <img
-                src="/suresh.jpeg"
-                alt="Founding Member 3"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
-              />
-              <h3 className="text-lg font-medium text-[#6a3341]">
-                Suresh Basnet
-              </h3>
-            </div>
-            {/* Member 3 */}
-            <div className="flex flex-col items-center">
-              <img
                 src="/founder3.jpg"
                 alt="Founding Member 3"
                 className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
@@ -380,7 +440,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <div id="contact">
         <Contact />
       </div>
