@@ -348,7 +348,7 @@ export default function HomePage() {
             </div>
             <div className="flex flex-col items-center">
               <img
-                src="/fortessa.jpg"
+                src="/fortessa.jpeg"
                 alt="Founding Member 4"
                 className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
               />
