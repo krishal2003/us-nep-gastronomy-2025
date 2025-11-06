@@ -55,7 +55,7 @@ export default function HomePage() {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="p-0 max-w-lg rounded-2xl overflow-hidden">
           <img
-            src="/tickets.png"
+            src="/101.jpeg"
             alt="Promotion"
             className="w-full h-auto object-cover"
           />
