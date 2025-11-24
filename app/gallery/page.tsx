@@ -13,62 +13,62 @@ export default function GalleryPage() {
 
   const galleryImages = [
     {
-      src: "/20.jpg",
+      src: "/a.jpg",
       alt: "Kathmandu Gala Dinner - Rooftop Ambiance",
       category: "Event",
     },
     {
-      src: "/background.jpg",
+      src: "/b.jpg",
       alt: "Everest Cookout",
       category: "Adventure",
     },
     {
-      src: "/food1.jpg",
+      src: "/c.jpg",
       alt: "Chefs Collaborating in the Kitchen",
       category: "Culinary Team",
     },
     {
-      src: "/23.jpg",
+      src: "/d.jpg",
       alt: "Showcase of Indigenous Nepali Ingredients",
       category: "Cuisine",
     },
     {
-      src: "/26.jpg",
+      src: "/f.jpg",
       alt: "Wine Pairing with Himalayan Dishes",
       category: "Cuisine",
     },
     {
-      src: "food5.jpg",
+      src: "g.jpg",
       alt: "Live Culinary Presentation by Michelin Chef",
       category: "Experience",
     },
     {
-      src: "/21.jpg",
+      src: "/h.jpg",
       alt: "Guest Immersion at the Gala",
       category: "Audience",
     },
     {
-      src: "/food6.jpg",
+      src: "/j.jpg",
       alt: "Modern Twist on Buff Momo",
       category: "Cuisine",
     },
     {
-      src: "/25.jpg",
+      src: "/k.jpg",
       alt: "Chef Team on the Kathmandu Rooftop Venue",
       category: "Culinary Team",
     },
     {
-      src: "/food3.jpg",
+      src: "/l.jpg",
       alt: "Culinary Setup at Everest ",
       category: "Adventure",
     },
     {
-      src: "/food4.jpg",
+      src: "/m.jpg",
       alt: "Michelin Chef Presenting His Creation",
       category: "Experience",
     },
     {
-      src: "/23.jpg",
+      src: "/n.jpg",
       alt: "Celebration of Culture and Food",
       category: "Culture",
     },
