@@ -77,7 +77,7 @@ export default function HomePage() {
         </Slider>
         <div className="absolute inset-0 bg-black/20" />
       </section>
-      {/* Welcome Section */}
+      {/* Welcome Sections */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium tracking-wide text-[#6a3341] mb-8 lg:mb-12">
