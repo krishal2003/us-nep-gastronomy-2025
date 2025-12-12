@@ -52,7 +52,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Popover */}
-      <Dialog open={open} onOpenChange={setOpen}>
+      {/* <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="p-0 max-w-lg rounded-2xl overflow-hidden">
           <img
             src="/101.jpeg"
@@ -60,7 +60,7 @@ export default function HomePage() {
             className="w-full h-auto object-cover"
           />
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
       <MobileNav />
       {/* Hero Section with Slider */}
       <section className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden">
