@@ -15,62 +15,103 @@ export default function GalleryPage() {
     {
       src: "/a.jpg",
       alt: "Kathmandu Gala Dinner - Rooftop Ambiance",
-      category: "Event",
+      category: "Gala Dinner",
+    },
+    {
+      src: "/dd.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/b.jpg",
       alt: "Everest Cookout",
-      category: "Adventure",
+      category: "Gala Dinner",
+    },
+    {
+      src: "/bb.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/c.jpg",
       alt: "Chefs Collaborating in the Kitchen",
-      category: "Culinary Team",
+      category: "Gala Dinner",
     },
     {
-      src: "/d.jpg",
-      alt: "Showcase of Indigenous Nepali Ingredients",
-      category: "Cuisine",
+      src: "/cc.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/f.jpg",
       alt: "Wine Pairing with Himalayan Dishes",
-      category: "Cuisine",
+      category: "Gala Dinner",
     },
+    {
+      src: "/aa.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
+    },
+
     {
       src: "g.jpg",
       alt: "Live Culinary Presentation by Michelin Chef",
-      category: "Experience",
+      category: "Gala Dinner",
+    },
+    {
+      src: "/pp.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/h.jpg",
       alt: "Guest Immersion at the Gala",
-      category: "Audience",
+      category: "Gala Dinner",
+    },
+    {
+      src: "/qq.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/j.jpg",
       alt: "Modern Twist on Buff Momo",
-      category: "Cuisine",
+      category: "Gala Dinner",
+    },
+    {
+      src: "/rr.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/k.jpg",
       alt: "Chef Team on the Kathmandu Rooftop Venue",
-      category: "Culinary Team",
+      category: "Gala Dinner",
+    },
+    {
+      src: "/tt.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/l.jpg",
       alt: "Culinary Setup at Everest ",
-      category: "Adventure",
+      category: "Gala Dinner",
+    },
+    {
+      src: "/ss.jpg",
+      alt: "Everest Cookout",
+      category: "Everest Cookout",
     },
     {
       src: "/m.jpg",
       alt: "Michelin Chef Presenting His Creation",
-      category: "Experience",
+      category: "Gala Dinner",
     },
     {
       src: "/n.jpg",
       alt: "Celebration of Culture and Food",
-      category: "Culture",
+      category: "Gala Dinner",
     },
   ];
 
@@ -134,9 +175,9 @@ export default function GalleryPage() {
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                   <div className="text-center text-white">
-                    <p className="text-lg sm:text-xl font-medium mb-2">
+                    {/* <p className="text-lg sm:text-xl font-medium mb-2">
                       {image.alt}
-                    </p>
+                    </p> */}
                     <p className="text-xs sm:text-sm tracking-wide opacity-90">
                       {image.category}
                     </p>

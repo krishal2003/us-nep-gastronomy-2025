@@ -21,11 +21,11 @@ export default function HomePage() {
   }, []);
 
   const heroImages = [
-    { src: "/11.jpg", alt: "Dining Hall" },
-    { src: "/15.jpg", alt: "Fine Dining Dish" },
-    { src: "/13.jpg", alt: "Chef Creation" },
-    { src: "/14.jpg", alt: "Seasonal Ingredients" },
-    { src: "/12.jpg", alt: "Table Setup" },
+    { src: "/gg.jpg", alt: "Dining Hall" },
+    { src: "/cc.jpg", alt: "Fine Dining Dish" },
+    { src: "/jj.jpg", alt: "Chef Creation" },
+    { src: "/ff.jpg", alt: "Seasonal Ingredients" },
+    { src: "/nn.jpg", alt: "Table Setup" },
   ];
 
   const sliderSettings = {
@@ -418,7 +418,7 @@ export default function HomePage() {
             {/* Member 3 */}
             <div className="flex flex-col items-center">
               <img
-                src="/founder3.jpg"
+                src="/spandan.png"
                 alt="Founding Member 3"
                 className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
               />

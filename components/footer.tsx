@@ -195,11 +195,11 @@ export default function Footer() {
             </div>
             <div className="text-xs text-[#6a3341]">
               <Link
-                href="https://eleven11np.com/"
+                href="https://www.instagram.com/krisalbasnet/"
                 className="hover:text-[#44212a] transition-colors"
                 target="_blank"
               >
-                Made by Eleven 11{" "}
+                Made by Krishal Basnet{" "}
               </Link>
             </div>
           </div>
