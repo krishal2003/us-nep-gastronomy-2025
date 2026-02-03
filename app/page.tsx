@@ -204,20 +204,41 @@ export default function HomePage() {
             </Card>
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
-              <CardContent className="p-8 text-center">
+                <CardContent className="p-8 text-center">
                 <img
-                  src="/ing.avif?height=200&width=300"
+                  src="/taporii.webp?height=200&width=300"
                   alt="Ingredients & Pairings"
                   className="w-full h-32 sm:h-40 object-cover rounded-lg mb-6"
                 />
                 <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
-                  INGREDIENTS & PAIRINGS
+                  WASHINGTON DC GALA DINNER
                 </h3>
+
                 <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
-                  A curated tasting journey featuring rare Nepali ingredients
-                  like jimbu, gundruk, yak cheese alongside luxury elements such
-                  as truffles and fine wines, with chefs presenting the stories
-                  and techniques behind each course.
+                  An exclusive dinner hosted at{" "}
+                  <a
+                    href="https://www.taporidc.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline font-medium hover:text-[#8a4a5a] transition-colors"
+                  >
+                    Tapori Restaurant
+                  </a>{" "}
+                  in Washington, DC. The evening brings together refined
+                  Nepali-inspired cuisine, an elegant dining atmosphere, and a
+                  curated guest experience in one of the city’s most distinctive
+                  dining venues.
+                  <br />
+                  <br />
+                  📍{" "}
+                  <a
+                    href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x89b7b9007935157b:0xec70935187ae6261"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium hover:text-[#8a4a5a] transition-colors"
+                  >
+                    View dinner location
+                  </a>
                 </p>
               </CardContent>
             </Card>
@@ -302,65 +323,99 @@ export default function HomePage() {
             OUR PARTNERS{" "}
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Member 1 */}
+           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="flex flex-col items-center">
-              <img
-                src="/cuisine.webp"
-                alt="Founding Member 1"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
-              />
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                src="/111.png"
-                alt="Founding Member 1"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
-              />
+              <a
+                href="https://cuisinesolutions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/cuisine.webp"
+                  alt="Cuisine Partner"
+                  className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
+                />
+              </a>
             </div>
 
-            {/* Member 2 */}
-
-            {/* Member 2 */}
             <div className="flex flex-col items-center">
-              <img
-                src="/wow.jpg"
-                alt="Founding Member 2"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
-              />
+              <a
+                href="https://www.taporidc.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/tapori.jpg"
+                  alt="Tapori Partner"
+                  className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
+                />
+              </a>
             </div>
 
-            {/* Member 3 */}
-        
-            {/* Member 4 */}
+            <div className="flex flex-col items-center">
+              <a
+                href="https://www.eleven11np.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/111.png"
+                  alt="Partner 3"
+                  className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
+                />
+              </a>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <a
+                href="https://wownepal.com.np/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/wow.jpg"
+                  alt="WOW Partner"
+                  className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
+                />
+              </a>
+            </div>
+
             <div className="flex flex-col items-center">
               <img
                 src="/everyday.jpeg"
-                alt="Founding Member 4"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+                alt="Everyday Partner"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
               />
             </div>
+
             <div className="flex flex-col items-center">
               <img
                 src="/fortessa.jpeg"
-                alt="Founding Member 4"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+                alt="Fortessa Partner"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
               />
             </div>
 
             <div className="flex flex-col items-center">
               <img
                 src="/aloft.png"
-                alt="Founding Member 4"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
+                alt="Aloft Partner"
+                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
               />
             </div>
+
             <div className="flex flex-col items-center">
-              <img
-                src="/prime.jpeg"
-                alt="Founding Member 2"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
-              />
+              <a
+                href="https://www.primehydroponic.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/prime.jpeg"
+                  alt="Prime Partner"
+                  className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
+                />
+              </a>
             </div>
           </div>
         </div>
