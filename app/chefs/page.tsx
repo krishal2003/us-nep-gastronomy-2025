@@ -53,6 +53,11 @@ export default function ChefsPage() {
       position: "Executive Chef at Ladurée Beverly Hills / Member",
       image: "/and.jpeg",
     },
+     {
+      name: "Chef Suresh Sundas",
+      position: "Member",
+      image: "/sureshh.jpeg",
+    },
   ];
 
   return (
