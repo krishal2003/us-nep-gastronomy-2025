@@ -55,7 +55,7 @@ export default function ChefsPage() {
     },
      {
       name: "Chef Suresh Sundas",
-      position: "Member",
+      position: "Executive Chef and Owner at Tapori and Daru / Member",
       image: "/sureshh.jpeg",
     },
   ];
