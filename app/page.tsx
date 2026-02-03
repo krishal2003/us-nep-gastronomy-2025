@@ -126,7 +126,7 @@ export default function HomePage() {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/16.jpg?height=500&width=600"
+                src="/taps.webp?height=500&width=600"
                 alt="Plant-based fine dining"
                 className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-lg shadow-lg"
               />
