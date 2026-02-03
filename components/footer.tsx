@@ -117,13 +117,8 @@ export default function Footer() {
                   </p>
                 </div>
                 <div className="pt-2">
-                  <Link
-                    href="https://www.eleven11np.com/"
-                    className="text-[#6a3341]  hover:text-[#44212a]  transition-colors text-xs lg:text-sm"
-                    target="_blank"
-                  >
+                
                     Attend / Register
-                  </Link>
                 </div>
               </div>
             </div>
