@@ -374,7 +374,7 @@ export default function HomePage() {
             FOUNDING MEMBERS
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Member 1 */}
             <div className="flex flex-col items-center">
               <img
@@ -410,16 +410,7 @@ export default function HomePage() {
             </div>
 
             {/* Member 3 */}
-            <div className="flex flex-col items-center">
-              <img
-                src="/spandan.png"
-                alt="Founding Member 3"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
-              />
-              <h3 className="text-lg font-medium text-[#6a3341]">
-                Spandan Lama Mocktan{" "}
-              </h3>
-            </div>
+       
             {/* Member 4 */}
             <div className="flex flex-col items-center">
               <img
