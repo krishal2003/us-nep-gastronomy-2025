@@ -331,13 +331,7 @@ export default function HomePage() {
             </div>
 
             {/* Member 3 */}
-            <div className="flex flex-col items-center">
-              <img
-                src="/esewa.jpg"
-                alt="Founding Member 3"
-                className="w-40 h-40 object-cover rounded-full shadow-lg mb-4"
-              />
-            </div>
+        
             {/* Member 4 */}
             <div className="flex flex-col items-center">
               <img
