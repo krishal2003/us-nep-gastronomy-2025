@@ -108,6 +108,14 @@ export default function Footer() {
                     November 11, 2025
                   </p>
                 </div>
+                <div>
+                  <p className="text-[#6a3341]  font-medium mb-1 text-sm lg:text-base">
+                    Washington DC Dinner{" "}
+                  </p>
+                  <p className="text-[#6a3341]  text-xs lg:text-sm">
+                    March 18, 2026
+                  </p>
+                </div>
                 <div className="pt-2">
                   <Link
                     href="https://www.eleven11np.com/"
@@ -176,7 +184,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
               <p className="text-xs text-[#6a3341] tracking-wide text-center md:text-left">
-                © 2025 US–NEPAL GASTRONOMY. ALL RIGHTS RESERVED.
+                © 2026 US–NEPAL GASTRONOMY. ALL RIGHTS RESERVED.
               </p>
               <div className="flex space-x-4 text-xs">
                 <Link
