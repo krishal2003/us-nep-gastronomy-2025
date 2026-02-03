@@ -24,12 +24,12 @@ export default function EventsPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 lg:mb-16">
             <h2 className="text-3xl lg:text-4xl font-medium  tracking-wide text-[#6a3341]  mb-8">
-              GALA DINNER
+               DINNER AT WASHINGTON DC
             </h2>
             <div className="w-24 h-px bg-[#31161d] mx-auto mb-8"></div>
             <p className="text-base lg:text-lg text-[#6a3341] max-w-3xl mx-auto">
-              An elegant, high-profile rooftop dinner in Kathmandu co-created by
-              international Michelin-starred chefs and top Nepali culinary
+              An elegant, high-profile  dinner in DC co-created by
+              international chefs and top Nepali culinary
               talent. Join us for a night of flavor, culture, and storytelling
               through food.
             </p>
@@ -38,8 +38,8 @@ export default function EventsPage() {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-20 items-stretch">
             <div className="flex">
               <Image
-                src="/17.jpg"
-                alt="Gala Dinner Rooftop Venue in Kathmandu"
+                src="/taps.webp"
+                alt=" Dinner Rooftop Venue in DC"
                 width={600}
                 height={400}
                 className="w-full h-auto rounded-lg object-cover"
@@ -47,12 +47,10 @@ export default function EventsPage() {
             </div>
             <div className="flex flex-col justify-center space-y-6">
               <h3 className="text-xl lg:text-2xl font-medium tracking-wide text-[#6a3341]">
-                A Night of Culinary Diplomacy
+                A Night of Culinary Excellence
               </h3>
               <p className="text-base lg:text-lg leading-relaxed text-[#6a3341]">
-                Held at one of Kathmandu’s most scenic venue, Aloft Hotel — this
-                immersive experience blends Nepal’s cultural richness with
-                modern sophistication.
+             An exclusive dinner at Tapori Restaurant, Washington, DC, bringing together refined Nepali-inspired cuisine and a carefully curated dining experience in an elegant and intimate setting.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
@@ -63,11 +61,11 @@ export default function EventsPage() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-[#d7a604]" />
-                  <span className="text-[#6a3341]">Thamel, Kathmandu</span>
+                  <span className="text-[#6a3341]">TAPORI @ WASHINGTON DC</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Calendar className="w-5 h-5 text-[#d7a604]" />
-                  <span className="text-[#6a3341]">November 9, 2025</span>
+                  <span className="text-[#6a3341]">March 18, 2026</span>
                 </div>
               </div>
             </div>
@@ -84,10 +82,7 @@ export default function EventsPage() {
                   DINING EXPERIENCE
                 </h4>
                 <ul className="space-y-2 text-[#6a3341] list-disc list-inside marker:text-[#d7a604]">
-                  <li>
-                    Five-course fusion menu (French technique + Nepali
-                    ingredients)
-                  </li>
+                
                   <li>Wine pairings curated by global sommeliers</li>
                   <li>Rare ingredients: yak cheese, gundruk, truffle</li>
                   <li>Live chef storytelling and presentations</li>
@@ -98,7 +93,6 @@ export default function EventsPage() {
                   EVENT ATMOSPHERE
                 </h4>
                 <ul className="space-y-2 text-[#6a3341] list-disc list-inside marker:text-[#d7a604]">
-                  <li>Scenic rooftop location</li>
                   <li>Elegant lighting and curated décor</li>
                   <li>Cultural performances and live music</li>
                   <li>
@@ -118,11 +112,9 @@ export default function EventsPage() {
               Celebrate the future of gastronomy and cultural diplomacy. Reserve
               your seat at one of the most talked-about culinary events of 2025.
             </p>
-            <Link href="https://www.eleven11np.com/" target="_blank">
               <Button className="bg-[#6a3341] hover:bg-[#582935] text-white px-8 py-3 cursor-pointer">
                 INQUIRE TICKETS
               </Button>
-            </Link>
           </div>
         </div>
       </main>
