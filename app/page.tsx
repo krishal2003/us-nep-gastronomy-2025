@@ -276,10 +276,7 @@ export default function HomePage() {
             RESERVE YOUR TABLE
           </h2>
           <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-8 lg:mb-12">
-            Join us for an unforgettable dining experience that celebrates the
-            artistry of Nepali cuisine. Reservations are available for the
-            Kathmandu Gala Dinner on November 8 and the Everest Cookout on
-            November 10, 2025.
+           The exclusive dinner will take place on March 18th at 6:00 PM at Tapori Restaurant in Washington, DC. Reservations are now open and highly encouraged.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
             <Link href="#contact">
