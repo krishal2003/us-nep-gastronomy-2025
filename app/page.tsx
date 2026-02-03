@@ -81,23 +81,15 @@ export default function HomePage() {
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium tracking-wide text-[#6a3341] mb-8 lg:mb-12">
-            WELCOME TO US NEPAL GASTRONOMY 2025
+            WELCOME TO US NEPAL GASTRONOMY 2026
           </h1>
           <p className="text-base sm:text-lg lg:text-xl text-[#6a3341] leading-relaxed mb-8 lg:mb-12">
-            Nestled between the cultural richness of Kathmandu and the
-            breathtaking heights of Everest, the US–Nepal Gastronomy 2025 is a
-            once-in-a-lifetime celebration of culinary excellence. Led by Chef
-            Arjun Ranabhat and a team of Michelin-starred chefs from around the
-            globe, the event blends French technique with Nepali ingredients,
-            creating a dining experience that honors tradition while redefining
-            innovation on the world stage.
+           An exclusive dinner at Tapori Restaurant in Washington, DC, featuring refined Nepali-inspired cuisine in an elegant setting. Guests will enjoy a carefully curated dining experience at one of the city’s most distinctive venues. March 18th, dinner begins at 6:00 PM.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-            <Link href="http://eleven11np.com/" target="_blank">
               <Button className="w-full sm:w-auto px-8 py-3 bg-[#6a3341] text-white hover:bg-[#582935] transition-colors text-sm lg:text-base cursor-pointer">
                 ENQUIRE TICKETS
               </Button>
-            </Link>
             <Link href="/">
               <Button
                 variant="outline"
@@ -118,18 +110,10 @@ export default function HomePage() {
                 A NEW CHAPTER IN FINE DINING
               </h2>
               <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-6">
-                In 2025, the US–Nepal Gastronomy is setting a bold new standard
-                for global cuisine. This is more than an event — it’s a
-                reimagining of what fine dining can be when cultures,
-                techniques, and ingredients converge at the highest level.
+               In 2026, an exclusive dinner at Tapori Restaurant in Washington, DC sets a refined benchmark for Nepali-inspired fine dining on an international stage. This is more than an evening meal — it is a carefully curated experience where culture, cuisine, and conversation converge in one of the city’s most distinctive dining venues. Thoughtfully designed and intentionally intimate, the dinner reflects a modern expression of Nepal’s culinary identity in a global capital.
               </p>
               <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-8">
-                Our commitment to cultural diplomacy, sustainability, and
-                culinary innovation drives everything we do. Each dish tells the
-                story of Nepal’s rich heritage, from indigenous flavors like
-                jimbu and yak cheese to world-class techniques and luxury
-                pairings, creating an unforgettable journey of taste, tradition,
-                and creativity.
+               Our dedication to cultural exchange, elegance, and culinary excellence shapes every detail of the experience. Each course highlights the depth of Nepali-inspired flavors through elevated techniques and thoughtful presentation, creating a journey that honors tradition while embracing contemporary sophistication. Set for March 18th, with dinner commencing at 6:00 PM, the evening offers guests an immersive celebration of heritage, creativity, and refined hospitality.
               </p>
               <Link href="/about">
                 <Button
@@ -158,9 +142,7 @@ export default function HomePage() {
               THE US–NEPAL GASTRONOMY EXPERIENCE
             </h2>
             <p className="text-base sm:text-lg text-[#6a3341] max-w-3xl mx-auto leading-relaxed">
-              Two extraordinary culinary journeys: an elegant Gala Dinner in
-              Kathmandu and a once-in-a-lifetime Everest Cookout, blending
-              Nepali heritage with global technique and premium ingredients.
+             An intimate and exclusive dinner at Tapori Restaurant in Washington, DC, blending refined Nepali-inspired flavors with an elegant ambiance and a curated guest experience.
             </p>
           </div>
 
@@ -352,19 +334,7 @@ export default function HomePage() {
               </a>
             </div>
 
-            <div className="flex flex-col items-center">
-              <a
-                href="https://www.eleven11np.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/111.png"
-                  alt="Partner 3"
-                  className="w-40 h-40 object-cover rounded-full shadow-lg mb-4 cursor-pointer"
-                />
-              </a>
-            </div>
+        
 
             <div className="flex flex-col items-center">
               <a
