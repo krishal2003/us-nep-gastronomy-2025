@@ -58,6 +58,16 @@ export default function ChefsPage() {
       position: "Executive Chef and Owner at Tapori and Daru / Member",
       image: "/sureshh.jpeg",
     },
+      {
+      name: "Chef Baburam Sharma",
+      position: "Head Chef of Tapori / Member",
+      image: "/baburam.jpeg",
+    },
+      {
+      name: "Dante Datta",
+      position: "General Manager of Tapori and Daru / Member",
+      image: "/dante.jpeg",
+    },
   ];
 
   return (
