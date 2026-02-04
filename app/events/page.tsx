@@ -112,9 +112,15 @@ export default function EventsPage() {
               Celebrate the future of gastronomy and cultural diplomacy. Reserve
               your seat at one of the most talked-about culinary events of 2025.
             </p>
+                <Link
+              href="https://resy.com/cities/washington-dc/venues/tapori/events/2026-us-nepal-gastronomy-gala-dinner-2026-03-18?date=2026-02-04&seats=2&event_url_slug=2026-us-nepal-gastronomy-gala-dinner-2026-03-18&maxPartySize=50"
+              target="_blank"
+            >
               <Button className="bg-[#6a3341] hover:bg-[#582935] text-white px-8 py-3 cursor-pointer">
                 INQUIRE TICKETS
               </Button>
+                              </Link>
+
           </div>
         </div>
       </main>
