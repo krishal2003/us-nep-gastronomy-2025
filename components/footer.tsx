@@ -118,7 +118,13 @@ export default function Footer() {
                 </div>
                 <div className="pt-2">
                 
+                     <Link
+                    href="https://resy.com/cities/washington-dc/venues/tapori/events/2026-us-nepal-gastronomy-gala-dinner-2026-03-18?date=2026-02-04&seats=2&event_url_slug=2026-us-nepal-gastronomy-gala-dinner-2026-03-18&maxPartySize=50"
+                    className="text-[#6a3341]  hover:text-[#44212a]  transition-colors text-xs lg:text-sm"
+                    target="_blank"
+                  >
                     Attend / Register
+                  </Link>
                 </div>
               </div>
             </div>
