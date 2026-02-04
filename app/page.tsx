@@ -87,9 +87,15 @@ export default function HomePage() {
            An exclusive dinner at Tapori Restaurant in Washington, DC, featuring refined Nepali-inspired cuisine in an elegant setting. Guests will enjoy a carefully curated dining experience at one of the city’s most distinctive venues. March 18th, dinner begins at 6:00 PM.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
+             <Link
+              href="https://resy.com/cities/washington-dc/venues/tapori/events/2026-us-nepal-gastronomy-gala-dinner-2026-03-18?date=2026-02-04&seats=2&event_url_slug=2026-us-nepal-gastronomy-gala-dinner-2026-03-18&maxPartySize=50"
+              target="_blank"
+            >
               <Button className="w-full sm:w-auto px-8 py-3 bg-[#6a3341] text-white hover:bg-[#582935] transition-colors text-sm lg:text-base cursor-pointer">
                 ENQUIRE TICKETS
               </Button>
+                           </Link>
+
             <Link href="/">
               <Button
                 variant="outline"
