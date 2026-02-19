@@ -141,98 +141,109 @@ export default function HomePage() {
         </div>
       </section>
       {/* Experience Features */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6">
-              THE US–NEPAL GASTRONOMY EXPERIENCE
-            </h2>
-            <p className="text-base sm:text-lg text-[#6a3341] max-w-3xl mx-auto leading-relaxed">
-             An intimate and exclusive dinner at Tapori Restaurant in Washington, DC, blending refined Nepali-inspired flavors with an elegant ambiance and a curated guest experience.
-            </p>
-          </div>
+     <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+  <div className="max-w-7xl mx-auto">
+    {/* Section Header */}
+    <div className="text-center mb-12 lg:mb-16">
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light tracking-wide text-[#6a3341] mb-6">
+        THE US–NEPAL GASTRONOMY EXPERIENCE
+      </h2>
+      <p className="text-base sm:text-lg text-[#6a3341] max-w-3xl mx-auto leading-relaxed">
+        An intimate and exclusive dinner at Tapori Restaurant in Washington, DC,
+        blending refined Nepali-inspired flavors with an elegant ambiance and a
+        curated guest experience.
+      </p>
+    </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
-              <CardContent className="p-8 text-center">
-                <img
-                  src="/aloft.jpeg?height=200&width=300"
-                  alt="Kathmandu Gala Dinner"
-                  className="w-full h-32 sm:h-40 object-cover rounded-lg mb-6"
-                />
-                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
-                  KATHMANDU GALA DINNER
-                </h3>
-                <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
-                  An intimate five-course evening at a historic or rooftop
-                  venue, where Michelin-starred and Nepali chefs co-create
-                  dishes that tell the story of cultural fusion, accompanied by
-                  live storytelling and curated wine pairings.
-                </p>
-              </CardContent>
-            </Card>
+    {/* TOP FEATURED CARD */}
+    <Card className="border-0 shadow-xl hover:shadow-2xl transition-shadow duration-500 mb-12">
+      <CardContent className="p-0">
+        <img
+          src="/taporii.webp"
+          alt="Washington DC Gala Dinner"
+          className="w-full h-64 sm:h-80 lg:h-[420px] object-cover rounded-t-lg"
+        />
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
-              <CardContent className="p-8 text-center">
-                <img
-                  src="/everest.jpg?height=200&width=300"
-                  alt="Everest Cookout"
-                  className="w-full h-32 sm:h-40 object-cover rounded-lg mb-6"
-                />
-                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
-                  EVEREST COOKOUT
-                </h3>
-                <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
-                  A groundbreaking high-altitude cookout showcasing Nepali
-                  cuisine on the world’s highest stage, combining indigenous
-                  ingredients with international chef expertise to create
-                  powerful media and cultural moments.
-                </p>
-              </CardContent>
-            </Card>
+        <div className="p-8 text-center">
+          <h3 className="text-2xl sm:text-3xl font-light tracking-wide text-[#6a3341] mb-4">
+            WASHINGTON DC GALA DINNER
+          </h3>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
-                <CardContent className="p-8 text-center">
-                <img
-                  src="/taporii.webp?height=200&width=300"
-                  alt="Ingredients & Pairings"
-                  className="w-full h-32 sm:h-40 object-cover rounded-lg mb-6"
-                />
-                <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
-                  WASHINGTON DC GALA DINNER
-                </h3>
-
-                <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
-                  An exclusive dinner hosted at{" "}
-                  <a
-                    href="https://www.taporidc.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline font-medium hover:text-[#8a4a5a] transition-colors"
-                  >
-                    Tapori Restaurant
-                  </a>{" "}
-                  in Washington, DC. The evening brings together refined
-                  Nepali-inspired cuisine, an elegant dining atmosphere, and a
-                  curated guest experience in one of the city’s most distinctive
-                  dining venues.
-                  <br />
-                  <br />
-                  📍{" "}
-                  <a
-                    href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x89b7b9007935157b:0xec70935187ae6261"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium hover:text-[#8a4a5a] transition-colors"
-                  >
-                    View dinner location
-                  </a>
-                </p>
-              </CardContent>
-            </Card>
-          </div>
+          <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed max-w-3xl mx-auto">
+            An exclusive dinner hosted at{" "}
+            <a
+              href="https://www.taporidc.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline font-medium hover:text-[#8a4a5a] transition-colors"
+            >
+              Tapori Restaurant
+            </a>{" "}
+            in Washington, DC. The evening brings together refined
+            Nepali-inspired cuisine, an elegant dining atmosphere, and a
+            curated guest experience in one of the city’s most distinctive
+            dining venues.
+            <br />
+            <br />
+            📍{" "}
+            <a
+              href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x89b7b9007935157b:0xec70935187ae6261"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium hover:text-[#8a4a5a] transition-colors"
+            >
+              View dinner location
+            </a>
+          </p>
         </div>
-      </section>
+      </CardContent>
+    </Card>
+
+    {/* BOTTOM TWO CARDS */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+      {/* Kathmandu */}
+      <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
+        <CardContent className="p-8 text-center">
+          <img
+            src="/aloft.jpeg"
+            alt="Kathmandu Gala Dinner"
+            className="w-full h-40 sm:h-48 object-cover rounded-lg mb-6"
+          />
+          <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
+            KATHMANDU GALA DINNER
+          </h3>
+          <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
+            An intimate five-course evening at a historic or rooftop venue,
+            where Michelin-starred and Nepali chefs co-create dishes that tell
+            the story of cultural fusion, accompanied by live storytelling and
+            curated wine pairings.
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* Everest */}
+      <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
+        <CardContent className="p-8 text-center">
+          <img
+            src="/everest.jpg"
+            alt="Everest Cookout"
+            className="w-full h-40 sm:h-48 object-cover rounded-lg mb-6"
+          />
+          <h3 className="text-xl sm:text-2xl font-light tracking-wide text-[#6a3341] mb-4">
+            EVEREST COOKOUT
+          </h3>
+          <p className="text-sm sm:text-base text-[#6a3341] leading-relaxed">
+            A groundbreaking high-altitude cookout showcasing Nepali cuisine
+            on the world’s highest stage, combining indigenous ingredients
+            with international chef expertise to create powerful media and
+            cultural moments.
+          </p>
+        </CardContent>
+      </Card>
+    </div>
+  </div>
+</section>
+
       {/* Chef Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto">
