@@ -53,12 +53,12 @@ export default function EventsPage() {
              An exclusive dinner at Tapori Restaurant, Washington, DC, bringing together refined Nepali-inspired cuisine and a carefully curated dining experience in an elegant and intimate setting.
               </p>
               <div className="space-y-3">
-                <div className="flex items-center space-x-3">
+                {/* <div className="flex items-center space-x-3">
                   <Users className="w-5 h-5 text-[#d7a604]" />
                   <span className="text-[#6a3341]">
                     Limited guest list of culinary VIPs
                   </span>
-                </div>
+                </div> */}
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-[#d7a604]" />
                   <span className="text-[#6a3341]">TAPORI @ WASHINGTON DC</span>
