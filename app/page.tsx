@@ -96,7 +96,7 @@ export default function HomePage() {
               </Button>
                            </Link>
 
-            <Link href="/">
+            <Link href="/events">
               <Button
                 variant="outline"
                 className="w-full sm:w-auto px-8 py-3 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] hover:text-white transition-colors text-sm lg:text-base bg-transparent cursor-pointer"
@@ -121,7 +121,7 @@ export default function HomePage() {
               <p className="text-base sm:text-lg text-[#6a3341] leading-relaxed mb-8">
                Our dedication to cultural exchange, elegance, and culinary excellence shapes every detail of the experience. Each course highlights the depth of Nepali-inspired flavors through elevated techniques and thoughtful presentation, creating a journey that honors tradition while embracing contemporary sophistication. Set for March 18th, with dinner commencing at 6:00 PM, the evening offers guests an immersive celebration of heritage, creativity, and refined hospitality.
               </p>
-              <Link href="/about">
+              <Link href="/gallery">
                 <Button
                   variant="outline"
                   className="px-6 py-3 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] hover:text-white transition-colors text-sm lg:text-base bg-transparent cursor-pointer"
@@ -290,12 +290,12 @@ export default function HomePage() {
                 CONTACT US{" "}
               </Button>
             </Link>
-            <Link href="/">
+            <Link href="/events">
               <Button
                 variant="outline"
                 className="w-full sm:w-auto px-8 py-4 border-[#6a3341] text-[#6a3341] hover:bg-[#6a3341] hover:text-white transition-colors text-base lg:text-lg bg-transparent cursor-pointer"
               >
-                GALA DINNER{" "}
+                GALA DINNER 2026{" "}
               </Button>
             </Link>
           </div>
