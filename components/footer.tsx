@@ -25,7 +25,7 @@ export default function Footer() {
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-[#d7a604] mt-0.5 flex-shrink-0" />
                   <div className="text-[#6a3341] text-sm lg:text-base">
-                    <p>Kathmandu, Nepal</p>
+                    <p>Washington DC, USA</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -76,14 +76,14 @@ export default function Footer() {
                   </Link>
                 </li>
 
-                <li>
+                {/* <li>
                   <Link
                     href="/contact"
                     className="text-[#6a3341]  hover:text-[#44212a]  transition-colors text-sm lg:text-base"
                   >
                     Contact
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
 
@@ -92,14 +92,15 @@ export default function Footer() {
                 KEY DATES
               </h4>
               <div className="space-y-4">
-                <div>
+                 <div>
                   <p className="text-[#6a3341]  font-medium mb-1 text-sm lg:text-base">
-                    Kathmandu Gala Dinner
+                    Washington DC Dinner{" "}
                   </p>
                   <p className="text-[#6a3341]  text-xs lg:text-sm">
-                    November 9, 2025
+                    March 18, 2026
                   </p>
                 </div>
+            
                 <div>
                   <p className="text-[#6a3341]  font-medium mb-1 text-sm lg:text-base">
                     Everest Cookout
@@ -108,14 +109,16 @@ export default function Footer() {
                     November 11, 2025
                   </p>
                 </div>
-                <div>
+
+                    <div>
                   <p className="text-[#6a3341]  font-medium mb-1 text-sm lg:text-base">
-                    Washington DC Dinner{" "}
+                    Kathmandu Gala Dinner
                   </p>
                   <p className="text-[#6a3341]  text-xs lg:text-sm">
-                    March 18, 2026
+                    November 9, 2025
                   </p>
                 </div>
+               
                 <div className="pt-2">
                 
                      <Link
