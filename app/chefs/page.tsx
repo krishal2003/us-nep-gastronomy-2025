@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Link } from "lucide-react";
 
 export default function ChefsPage() {
-  const chefs = [
+   const chefs = [
     {
       name: "Chef Arjun Ranabhat",
       position: "President, US-Nepal Gastronomy Chefs Association",
@@ -13,19 +13,40 @@ export default function ChefsPage() {
       featured: true,
     },
     {
-      name: "Chef Ram Thapa",
-      position: "Vice President / Founder",
-      image: "/ram.jpg",
-    },
-    {
       name: "Chef Bruno Bertin",
       position: "Brand Ambassador / Founder",
       image: "/bruno.jpg",
     },
     {
+      name: "Chef Alexandre Seinee",
+      position: "Executive Chef at Ladurée Beverly Hills / Member",
+      image: "/and.jpeg",
+    },
+    {
+      name: "Chef Irvin Van Oordt",
+      position: "F&B Strategy & Innovation / Member",
+      image: "/irvin.jpg",
+    },
+    {
+      name: "Chef Ram Thapa",
+      position: "Vice President / Founder",
+      image: "/ram.jpg",
+    },
+
+    {
       name: "Chef Rajeev Shrestha",
       position: "Ambassador of Nepal / Member",
       image: "/rajeev.jpeg",
+    },
+    {
+      name: "Chef Suresh Sundas",
+      position: "Executive Chef and Owner at Tapori and Daru / Member",
+      image: "/sureshh.jpeg",
+    },
+    {
+      name: "Chef Baburam Sharma",
+      position: "Head Chef of Tapori / Member",
+      image: "/baburam.jpeg",
     },
     {
       name: "Chef Florian Bellangaer",
@@ -37,37 +58,19 @@ export default function ChefsPage() {
       position: "Culinary Director at Desert Mountain / Member",
       image: "/bertand.png",
     },
-    {
-      name: "Chef Taylor Fernandes",
-      position:
-        "Senior Manager of R&D, Food & Beverage Innovation at Starbucks / Member",
-      image: "/tay.jpg",
-    },
+
     {
       name: "Chef Sylvie Grucker",
       position: "Culinary Innovator, Le Pressoir de Bacchus / Member",
       image: "/sylvia.jpeg",
     },
+
     {
-      name: "Chef Alexandre Seinee",
-      position: "Executive Chef at Ladurée Beverly Hills / Member",
-      image: "/and.jpeg",
-    },
-     {
       name: "Chef Suresh Sundas",
-      position: "Executive Chef and Owner at Tapori and Daru / Member",
+      position: "Member",
       image: "/sureshh.jpeg",
     },
-      {
-      name: "Chef Baburam Sharma",
-      position: "Head Chef of Tapori / Member",
-      image: "/baburam.jpeg",
-    },
-      {
-      name: "Dante Datta",
-      position: "General Manager of Tapori and Daru / Member",
-      image: "/dante.jpeg",
-    },
+
   ];
 
   return (
