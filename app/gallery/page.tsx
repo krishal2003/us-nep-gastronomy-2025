@@ -28,7 +28,7 @@ export default function GalleryPage() {
       category: "Gala Dinner",
     },
     {
-      src: "/bb.jpg",
+      src: "/f6.jpg",
       alt: "Everest Cookout",
       category: "Everest Cookout",
     },
@@ -43,12 +43,12 @@ export default function GalleryPage() {
       category: "Everest Cookout",
     },
     {
-      src: "/f.jpg",
+      src: "/f1.jpg",
       alt: "Wine Pairing with Himalayan Dishes",
       category: "Gala Dinner",
     },
     {
-      src: "/aa.jpg",
+      src: "/f5.jpg",
       alt: "Everest Cookout",
       category: "Everest Cookout",
     },
@@ -69,7 +69,7 @@ export default function GalleryPage() {
       category: "Gala Dinner",
     },
     {
-      src: "/qq.jpg",
+      src: "/f2.jpg",
       alt: "Everest Cookout",
       category: "Everest Cookout",
     },
@@ -94,12 +94,12 @@ export default function GalleryPage() {
       category: "Everest Cookout",
     },
     {
-      src: "/l.jpg",
+      src: "/f3.jpg",
       alt: "Culinary Setup at Everest ",
       category: "Gala Dinner",
     },
     {
-      src: "/ss.jpg",
+      src: "/f4.jpg",
       alt: "Everest Cookout",
       category: "Everest Cookout",
     },
