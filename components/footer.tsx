@@ -206,13 +206,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="text-xs text-[#6a3341]">
-              <Link
-                href="https://www.instagram.com/krisalbasnet/"
-                className="hover:text-[#44212a] transition-colors"
-                target="_blank"
-              >
-                Made by Krishal Basnet{" "}
-              </Link>
+             
+                Made by Eleven11{" "}
             </div>
           </div>
         </div>
